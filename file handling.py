@@ -1,0 +1,8 @@
+file = open('inputfile.txt','w')
+file.write("hey how are you?...\n")
+file.write("my name is anbu \n")
+file.write("i am a professional boxer and a trianer \n")
+file.close()
+file=open('inputfile.txt','r')
+s=file.readlines()
+print(s)
